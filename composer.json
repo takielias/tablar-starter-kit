@@ -52,7 +52,9 @@
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan tablar:install",
             "@php artisan migrate --graceful --ansi",
-            "@php artisan tablar:export-auth"
+            "@php artisan tablar:export-auth",
+            "npm install",
+            "npm run build"
         ],
         "dev": [
             "Composer\\Config::disableProcessTimeout",
