@@ -1,5 +1,12 @@
 # Laravel Tablar Starter Kit
 
+[![Latest Version](https://img.shields.io/packagist/v/takielias/tablar-starter-kit?color=blue&label=release&style=for-the-badge)](https://packagist.org/packages/takielias/tablar-starter-kit)
+[![Stars](https://img.shields.io/github/stars/takielias/tablar-starter-kit?color=rgb%2806%20189%20248%29&label=stars&style=for-the-badge)](https://packagist.org/packages/takielias/tablar-starter-kit)
+[![Total Downloads](https://img.shields.io/packagist/dt/takielias/tablar-starter-kit.svg?color=rgb%28249%20115%2022%29&style=for-the-badge)](https://packagist.org/packages/takielias/tablar-starter-kit)
+[![Forks](https://img.shields.io/github/forks/takielias/tablar-starter-kit?color=rgb%28134%20115%2022%29&style=for-the-badge)](https://packagist.org/packages/takielias/tablar-starter-kit)
+[![Issues](https://img.shields.io/github/issues/takielias/tablar-starter-kit?color=rgb%28134%20239%20128%29&style=for-the-badge)](https://packagist.org/packages/takielias/tablar-starter-kit)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&color=rgba(235%2068%2050)&style=for-the-badge)](https://linkedin.com/in/takielias)
+
 This guide will walk you through the process of installing Laravel with the Tablar Starter Kit, a modern admin panel template based on [Tabler HTML Template](https://tabler.io/admin-template/preview) .
 
 ## Prerequisites
