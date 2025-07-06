@@ -13,7 +13,7 @@
         "php": "^8.2",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
-        "takielias/tablar": "^12"
+        "takielias/tablar": "^12.03"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
