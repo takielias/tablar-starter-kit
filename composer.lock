@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a985c0b37a7ed5baf8b608c3b1c6fb5",
+    "content-hash": "15bc63bc0153143c630bad7cf09e50d4",
     "packages": [
         {
             "name": "brick/math",
@@ -1454,69 +1454,6 @@
                 "source": "https://github.com/laravel/tinker/tree/v2.10.1"
             },
             "time": "2025-01-27T14:24:01+00:00"
-        },
-        {
-            "name": "laravel/ui",
-            "version": "v4.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/ui.git",
-                "reference": "7d6ffa38d79f19c9b3e70a751a9af845e8f41d88"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/ui/zipball/7d6ffa38d79f19c9b3e70a751a9af845e8f41d88",
-                "reference": "7d6ffa38d79f19c9b3e70a751a9af845e8f41d88",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^9.21|^10.0|^11.0|^12.0",
-                "illuminate/filesystem": "^9.21|^10.0|^11.0|^12.0",
-                "illuminate/support": "^9.21|^10.0|^11.0|^12.0",
-                "illuminate/validation": "^9.21|^10.0|^11.0|^12.0",
-                "php": "^8.0",
-                "symfony/console": "^6.0|^7.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^7.35|^8.15|^9.0|^10.0",
-                "phpunit/phpunit": "^9.3|^10.4|^11.5"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Ui\\UiServiceProvider"
-                    ]
-                },
-                "branch-alias": {
-                    "dev-master": "4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Ui\\": "src/",
-                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Laravel UI utilities and presets.",
-            "keywords": [
-                "laravel",
-                "ui"
-            ],
-            "support": {
-                "source": "https://github.com/laravel/ui/tree/v4.6.1"
-            },
-            "time": "2025-01-28T15:15:29+00:00"
         },
         {
             "name": "league/commonmark",
@@ -5579,21 +5516,23 @@
         },
         {
             "name": "takielias/tablar",
-            "version": "12.01",
+            "version": "13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/takielias/tablar.git",
-                "reference": "2438a12c7f05b29d2fe6de0677c36cfd8bd3f6d9"
+                "reference": "62893cd7cf7ad7f20f55284278bc0508caa46c8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/takielias/tablar/zipball/2438a12c7f05b29d2fe6de0677c36cfd8bd3f6d9",
-                "reference": "2438a12c7f05b29d2fe6de0677c36cfd8bd3f6d9",
+                "url": "https://api.github.com/repos/takielias/tablar/zipball/62893cd7cf7ad7f20f55284278bc0508caa46c8e",
+                "reference": "62893cd7cf7ad7f20f55284278bc0508caa46c8e",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~10|~11|~12",
-                "laravel/ui": "~4"
+                "illuminate/support": "~12"
+            },
+            "conflict": {
+                "laravel/breeze": "*"
             },
             "require-dev": {
                 "orchestra/testbench": ">=9.0",
@@ -5635,9 +5574,9 @@
             ],
             "support": {
                 "issues": "https://github.com/takielias/tablar/issues",
-                "source": "https://github.com/takielias/tablar/tree/12.01"
+                "source": "https://github.com/takielias/tablar/tree/13.0"
             },
-            "time": "2025-03-08T17:14:16+00:00"
+            "time": "2026-02-10T16:21:21+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -8197,5 +8136,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
