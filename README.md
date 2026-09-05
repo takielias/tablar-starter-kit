@@ -32,6 +32,12 @@ Make sure the Composer bin directory is in your system's PATH.
 laravel new my-project --using=takielias/tablar-starter-kit
 ```
 
+Or without the installer:
+
+```bash
+composer create-project takielias/tablar-starter-kit my-project
+```
+
 This command will:
 - Create a new Laravel application
 - Install the Tablar Starter Kit
@@ -40,12 +46,12 @@ This command will:
 ### 3. Navigate to Your Project
 
 ```bash
-cd demo-starter-kit
+cd my-project
 ```
 
 ### 4. Configure Your Database
 
-Edit the `.env` file and update the database connection details:
+The install uses SQLite by default and needs no configuration. To use MySQL instead, edit the `.env` file and run `php artisan migrate`:
 
 ```
 DB_CONNECTION=mysql
